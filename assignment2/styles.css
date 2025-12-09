@@ -1,10 +1,15 @@
-/* Resetting default margin and padding for all elements */
+/* ------------------------------
+   GLOBAL RESET
+------------------------------ */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Body styling */
+/* ------------------------------
+   GENERAL BODY STYLING
+------------------------------ */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -13,4 +18,60 @@ body {
     padding: 20px;
 }
 
-/* Add in your own customisations */
+/* ------------------------------
+   HEADER
+------------------------------ */
+header {
+    background-color: #93d0f4;   /* required */
+    text-align: center;          /* required */
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+/* ------------------------------
+   TABLE STYLING
+------------------------------ */
+table {
+    width: 100%;
+    border: 1px solid #ddd;           /* required */
+    border-collapse: collapse;         /* required (shared borders) */
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;           /* required */
+    padding: 10px;                    /* required */
+    text-align: left;                 /* required */
+}
+
+th {
+    background-color: #e8f5ff;
+    font-weight: bold;
+}
+
+/* ------------------------------
+   LINKS
+------------------------------ */
+a {
+    color: #0079c1;                   /* required */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
+footer {
+    background-color: #93d0f4;       /* required */
+    text-align: center;              /* required */
+    padding: 10px 0;                 /* required */
+    margin-top: 40px;
+}
